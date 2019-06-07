@@ -23,6 +23,8 @@ class Song
     return @@artists.uniq!
   end 
   def self.genre_count 
-    puts @@genres
+    @@genres.each do |genre|
+      
+    end 
   end
 end 
