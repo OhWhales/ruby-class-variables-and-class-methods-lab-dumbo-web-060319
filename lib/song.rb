@@ -43,5 +43,6 @@ class Song
       else 
         x=myHash[artist]
         x=x+1 
+        myHash[artist] = x 
   end 
 end 
