@@ -33,5 +33,6 @@ class Song
       end 
       counter = counter + 1
     end 
+    return myHash
   end
 end 
