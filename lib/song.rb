@@ -23,5 +23,6 @@ class Song
     return @@artists.uniq!
   end 
   def self.genre_count 
-    
+    myHash = {}
+    puts @@genres
 end 
