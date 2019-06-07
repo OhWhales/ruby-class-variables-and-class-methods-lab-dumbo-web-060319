@@ -27,6 +27,8 @@ class Song
     @@genres.each do |genre|
       if myHash.key?(genre) == false 
         myHash[genre] = 1
+      else 
+        x=myHash[genre]
       end 
     end 
     puts myHash
