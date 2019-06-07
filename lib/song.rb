@@ -26,7 +26,7 @@ class Song
     myHash= {}
     @@genres.each do |genre|
       if myHash.key?(genre) == false 
-        
+        myHash[genre] = 1
       end 
     end 
   end
