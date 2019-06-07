@@ -45,5 +45,6 @@ class Song
         x=x+1 
         myHash[artist] = x 
       end 
+    end 
   end 
 end 
