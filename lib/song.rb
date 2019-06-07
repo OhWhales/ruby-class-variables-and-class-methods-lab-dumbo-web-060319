@@ -33,6 +33,6 @@ class Song
         myHash[genre] = x
       end 
     end 
-    return  myHash
+    return myHash
   end
 end 
