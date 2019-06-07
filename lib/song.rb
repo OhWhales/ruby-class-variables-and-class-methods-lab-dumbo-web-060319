@@ -26,5 +26,7 @@ class Song
     myHash = {}
     counter = 0 
     while (counter < @@genres.size)
+      
+    
   end
 end 
