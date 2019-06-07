@@ -30,8 +30,8 @@ class Song
         myHash[@@genres[counter]] = 1 
       elsif myHash.key(@@genres[counter]) == true 
         myHash[@@genres[counter]] = myHash[@@genres[counter]] + 1
-      
       end 
+      counter = counter + 1
     end 
   end
 end 
