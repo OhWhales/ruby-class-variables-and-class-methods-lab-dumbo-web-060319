@@ -31,5 +31,5 @@ class Song
       genreHash[y] = 0
       count = count + 1
     end 
-    puts 
+    return genreHash
 end 
