@@ -23,14 +23,5 @@ class Song
     return @@artists.uniq!
   end 
   def self.genre_count 
-    genreHash = {}
-    x = @@genres.uniq!
-    count = 0 
-    while (count < x.size)
-      y=x[count]
-      genreHash[y] = 0
-      count = count + 1
-    end 
-    return genreHash
-  end 
+    
 end 
