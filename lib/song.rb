@@ -25,9 +25,10 @@ class Song
   def self.genre_count 
     myHash = {}
     counter = 0 
-    # while (counter < @@genres.size)
-    #   if myHash.key()
-    x = myHash.key?("rap")
-    puts x
+    while (counter < @@genres.size)
+      if myHash.key(@@genres[counter]) == false 
+        myHash[@@genres[counter]] = 1
+      end 
+    end 
   end
 end 
