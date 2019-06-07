@@ -24,6 +24,7 @@ class Song
   end 
   def self.genre_count 
     myHash = {}
-    puts @@genres
+    counter = 0 
+    while (counter < @@genres.size)
   end
 end 
