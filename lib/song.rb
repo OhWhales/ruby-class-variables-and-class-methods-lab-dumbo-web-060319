@@ -23,13 +23,6 @@ class Song
     return @@artists.uniq!
   end 
   def self.genre_count 
-    myHash = {}
-    while (counter < @@genres.size)
-      if myHash.key?(@@genres[counter]) == false 
-        myHash[@@genres[counter]] = 1 
-      end 
-      counter = counter + 1
-    end 
-    return myHash
+    puts @@genres
   end
 end 
