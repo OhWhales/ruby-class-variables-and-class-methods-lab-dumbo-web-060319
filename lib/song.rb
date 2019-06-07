@@ -36,6 +36,7 @@ class Song
     return myHash
   end
   def self.artist_count 
-    
+    myHash= {}
+    puts @@artists
   end 
 end 
