@@ -27,7 +27,7 @@ class Song
     counter = 0 
     while (counter < @@genres.size)
       if myHash.key(@@genres[counter]) == false 
-        myHash[@@genres[counter]] = 1
+        myHash[@@genres[counter]] = 1 
       end 
     end 
   end
