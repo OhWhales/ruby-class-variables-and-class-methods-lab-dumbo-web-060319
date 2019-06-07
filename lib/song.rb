@@ -32,4 +32,5 @@ class Song
       count = count + 1
     end 
     return genreHash
+  end 
 end 
