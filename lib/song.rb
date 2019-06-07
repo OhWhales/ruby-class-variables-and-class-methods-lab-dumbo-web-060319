@@ -29,6 +29,8 @@ class Song
         myHash[genre] = 1
       else 
         x=myHash[genre]
+        x=x+1 
+        myHash[genre] = x
       end 
     end 
     puts myHash
