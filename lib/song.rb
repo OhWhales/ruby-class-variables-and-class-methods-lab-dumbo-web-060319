@@ -28,8 +28,7 @@ class Song
     while (counter < @@genres.size)
       if myHash.key(@@genres[counter]) == false 
         myHash[@@genres[counter]] = 1 
-      elsif myHash.key(@@genres[counter]) == true 
-        myHash[@@genres[counter]] = myHash[@@genres[counter]] + 1
+      
       end 
       counter = counter + 1
     end 
