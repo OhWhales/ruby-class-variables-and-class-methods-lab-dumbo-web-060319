@@ -37,6 +37,8 @@ class Song
   end
   def self.artist_count 
     myHash= {}
-    puts @@artists
+    @@artists.each do |artist|
+      if myHash.key?(artist) == false 
+        myHash[artist] = 1
   end 
 end 
