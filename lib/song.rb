@@ -29,5 +29,6 @@ class Song
         myHash[genre] = 1
       end 
     end 
+    puts myHash
   end
 end 
