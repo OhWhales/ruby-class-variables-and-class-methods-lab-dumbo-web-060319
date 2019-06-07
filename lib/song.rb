@@ -31,12 +31,5 @@ class Song
       genreHash[y] = 0
       count = count + 1
     end 
-    count2 = 0 
-    while (count2 < @@genres.size)
-      genreHash[@@genres[count2]] = genreHash[@@genres[count2]+1
-      puts genreHash[@@genres[count2]]
-      count2 = count2 + 1
-    end 
-  end 
-
+    puts 
 end 
